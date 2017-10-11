@@ -7,6 +7,7 @@ angular.module('chatsterApp')
   channelsCtrl.getDisplayName = Users.getDisplayName;
   channelsCtrl.getGravatar = Users.getGravatar;
   channelsCtrl.newChannel = { name: '' };
+  channelsCtrl.users = Users.all;
 
   channelsCtrl.logout = function(){
     Auth.$signOut().then(function(){
