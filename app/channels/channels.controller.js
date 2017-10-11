@@ -1,7 +1,7 @@
 angular.module('chatsterApp')
 .controller('ChannelsCtrl', function($state, Auth, Users, profile, channels){
   var channelsCtrl = this;
-
+  Users.setOnline(profile.$id);
   channelsCtrl.profile = profile;
   channelsCtrl.channels = channels;
   channelsCtrl.getDisplayName = Users.getDisplayName;
@@ -10,8 +10,11 @@ angular.module('chatsterApp')
   channelsCtrl.users = Users.all;
 
   channelsCtrl.logout = function(){
-    Auth.$signOut().then(function(){
-      $state.go('home');
+    channelsCtrl.profile.online = null;
+    channelsCtrl.profile.$save().then(function(){
+      Auth.$signOut().then(function(){
+        $state.go('home');
+      });
     });
   }
   channelsCtrl.createChannel = function(){
