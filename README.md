@@ -25,4 +25,6 @@ Back-end : Firebase
 
 ![User Interface - 2](https://github.com/wahidstephen/Chatster/blob/master/ss2.png "Chatster")
 
+# Database Design
+
 ![Database Structure](https://github.com/wahidstephen/Chatster/blob/master/ss3.png "Realtime DB")
