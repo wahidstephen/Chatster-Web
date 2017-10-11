@@ -21,9 +21,9 @@ Back-end : Firebase
 
 # Screenshots
 
-![User Interface - 1](https://github.com/wahidstephen/Chatster/blob/master/ss1.png "Chatster")
+![User Interface - 1](https://github.com/wahidstephen/Chatster/blob/master/ss1.png "User Interface - 1")
 
-![User Interface - 2](https://github.com/wahidstephen/Chatster/blob/master/ss2.png "Chatster")
+![User Interface - 2](https://github.com/wahidstephen/Chatster/blob/master/ss2.png "User Interface - 2")
 
 # Database Design
 
