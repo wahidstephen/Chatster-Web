@@ -1,0 +1,18 @@
+{
+  "name": "Chatster-Search",
+  "version": "0.3.0",
+  "description": "A search utility for Firebase",
+  "scripts": {
+    "start": "node app.js",
+    "monitor": "nodemon app.js",
+    "deploy": "gcloud app deploy"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "dependencies": {
+    "JQDeferred": "~1.9.1",
+    "colors": "~0.6.2",
+    "elasticsearch": "^11.0.1",
+    "firebase-admin": "^4.0.4"
+  }
+}
