@@ -1,5 +1,5 @@
 # Chatster
-A realtime Chat web application made using Angular and Firebase
+A realtime Chat web application made using AngularJS and Firebase
 
 # Live link
 [Chatster](https://chatster-31375.firebaseapp.com/ "Chatster Application Homepage")
