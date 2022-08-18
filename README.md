@@ -15,9 +15,9 @@ Made on the basic design principles of the world famous messaging app - "Slack"
 5.  Online status
 
 # Tools used
-Front-end : HTML, CSS, Angular.JS
-Middle-ware : AngularFire library
-Back-end : Firebase
+- Front-end : HTML, CSS, Angular.JS
+- Middle-ware : AngularFire library
+- Back-end : Firebase
 
 # Screenshots
 
