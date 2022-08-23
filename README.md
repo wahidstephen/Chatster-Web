@@ -2,7 +2,7 @@
 A realtime Chat web application made using AngularJS and Firebase
 
 # Live link
-[Chatster](https://chatster-31375.firebaseapp.com/ "Chatster Application Homepage")
+[Chatster](https://chatster-31375.web.app "Chatster Application Homepage")
 
 # Design
 Made on the basic design principles of the world famous messaging app - "Slack"
@@ -17,7 +17,7 @@ Made on the basic design principles of the world famous messaging app - "Slack"
 # Tools used
 - Front-end : HTML, CSS, Angular.JS
 - Middle-ware : AngularFire library
-- Back-end : Firebase
+- Back-end : Firebase Real-time Database
 
 # Screenshots
 
